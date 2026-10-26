@@ -68,7 +68,3 @@ Note: use the same `--max-rows` for baseline and transformer to compare on a sim
 - Built a 3-class sentiment classifier on [N] Amazon reviews; fine-tuned DistilBERT to reach [X] macro-F1 versus [Y] for a TF-IDF baseline.
 - Applied NMF topic modelling to negative reviews, surfacing [N] recurring complaint themes (e.g. [theme]) for product teams.
 - Deployed an interactive Streamlit app for real-time sentiment scoring with confidence scores.
-
-## Interview questions to prepare
-1. Why macro-F1 instead of accuracy? 2. TF-IDF vs embeddings? 3. Why does a transformer beat bag-of-words?
-4. How did you handle the neutral class? 5. What would you do to deploy and monitor this?
